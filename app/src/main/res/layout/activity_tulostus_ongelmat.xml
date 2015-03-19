@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.alanurmonkoulu.alanurmonkoulu.TulostusOngelmat">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:id="@+id/customToolbar"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/customToolbar"
+        android:gravity="center_horizontal"
+        android:text="@string/tulostus_ongelma_valitse_vaihtoehto_teksti" />
+
+    <Button
+        android:id="@+id/tulostinEiAloitaNappi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="50dp"
+        android:text="@string/tulostin_ei_aloita_nappi" />
+
+    <Button
+        android:id="@+id/repetierHostYhteysPoikkiNappi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tulostinEiAloitaNappi"
+        android:layout_marginTop="27dp"
+        android:text="@string/tulostin_repetier_host_yhteys_poikki_nappi" />
+
+    <Button
+        android:id="@+id/jokuMuuNappi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repetierHostYhteysPoikkiNappi"
+        android:layout_marginTop="27dp"
+        android:text="@string/joku_muu_nappi" />
+
+
+</RelativeLayout>

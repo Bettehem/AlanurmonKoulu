@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fi.alanurmonkoulu.alanurmonkoulu" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Valikko"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <activity
+            android:name=".Ohjeita"
+            android:label="@string/title_activity_ohjeita" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale1"
+            android:label="@string/title_activity_tulostus_ohje_kappale1" >
+        </activity>
+        <activity
+            android:name=".TinkercadOhje"
+            android:label="@string/lista_tinkercad" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappaleet"
+            android:label="@string/title_activity_tulostus_ohje_kappaleet" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale2"
+            android:label="@string/title_activity_tulostus_ohje_kappale2" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale3"
+            android:label="@string/title_activity_tulostus_ohje_kappale3" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale4"
+            android:label="@string/title_activity_tulostus_ohje_kappale4" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale5"
+            android:label="@string/title_activity_tulostus_ohje_kappale5" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale6"
+            android:label="@string/title_activity_tulostus_ohje_kappale6" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale7"
+            android:label="@string/title_activity_tulostus_ohje_kappale7" >
+        </activity>
+        <activity
+            android:name=".TulostusOhjeKappale8"
+            android:label="@string/title_activity_tulostus_ohje_kappale8" >
+        </activity>
+        <activity
+            android:name=".TulostusOngelmat"
+            android:label="@string/title_activity_tulostus_ongelmat" >
+        </activity>
+        <activity
+            android:name=".TulostinEiAloitaTulostusta"
+            android:label="@string/title_activity_tulostin_ei_aloita_tulostusta" >
+        </activity>
+        <activity
+            android:name=".RepetierHostYhteysPoikki"
+            android:label="@string/title_activity_repetier_host_yhteys_poikki" >
+        </activity>
+        <activity
+            android:name=".JokuMuuOngelma"
+            android:label="@string/title_activity_joku_muu_ongelma" >
+        </activity>
+    </application>
+
+</manifest>

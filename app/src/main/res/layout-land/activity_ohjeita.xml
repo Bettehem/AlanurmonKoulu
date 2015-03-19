@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="fi.alanurmonkoulu.alanurmonkoulu.Ohjeita">
+
+    <include
+        android:id="@+id/customToolbar"
+        layout="@layout/custom_toolbar" />
+
+    <!--
+    <fi.alanurmonkoulu.alanurmonkoulu.tabs.SlidingTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabs"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/viewPager"/>
+    -->
+
+    <it.neokree.materialtabs.MaterialTabHost
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:textColor="@color/textColor"
+        app:primaryColor="@color/primaryColor"
+        app:accentColor="@color/accentColor"
+        android:id="@+id/materialTabHost"/>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:id="@+id/viewPager"/>
+
+
+    <!--
+
+    <RelativeLayout
+        android:id="@+id/ohjeLista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fastScrollEnabled="false" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ohjePieniRuutu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+
+        <Button
+            android:id="@+id/fullscreenNappi"
+            style="@style/YlinNappi"
+            android:text="@string/avaa_fullscreen_teksti" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/fullscreenNappi">
+
+            <ViewFlipper
+                android:id="@+id/ohjeRuudunVaihtaja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/kappale_teksti" />
+
+                    <ListView
+                        android:id="@+id/tulostusKappaleLista"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/textView8" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <include
+                        layout="@layout/activity_tinkercad_ohje"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+            </ViewFlipper>
+        </ScrollView>
+    </RelativeLayout>
+    -->
+</LinearLayout>

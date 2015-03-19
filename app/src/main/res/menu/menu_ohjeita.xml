@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fi.alanurmonkoulu.alanurmonkoulu.Ohjeita">
+    <item android:id="@+id/action_nettisivut" android:title="@string/action_nettisivut"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_tulostinongelmat" android:title="@string/action_tulostinongelmat"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Valikko">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:id="@+id/customToolbar"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/etusivu_teksti"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:text="@string/etusivu_teksti2"
+                android:textIsSelectable="true" />
+
+            <Button
+                android:id="@+id/bonusLuukku"
+                style="@style/Napit"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/bonusluukku_nappi" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bonusLuukku"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:text="@string/etusivu_teksti3"
+                android:textIsSelectable="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight="4"
+        android:id="@+id/kierrätysLista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        ></android.support.v7.widget.RecyclerView>
+
+    <!--
+    <LinearLayout
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:text="@string/ohjeita_nappi"
+            android:id="@+id/ohjeita"
+            style="@style/YlinNappi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <Button
+            style="@style/Napit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kahoot_nappi"
+            android:id="@+id/kahootNappi"
+            android:layout_below="@+id/ohjeita"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_below="@+id/button4"
+            android:layout_centerHorizontal="true"
+            style="@style/Napit"/>
+
+        <Button
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            style="@style/Napit"/>
+    </LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    Tähän tiedostoon kirjoitetaan suomenkieliset käännökset. \n -merkki tarkoittaa uutta riviä, pelkkä enter napin painallus ei toimi.
+    -->
+
+    <string name="app_name">Alanurmon Koulu</string>
+    <string name="action_nettisivut">Nettisivut</string>
+    <string name="etusivu_teksti">
+        LASKETTELUPÄIVÄ LAUANTAINA, 14.3\n
+        28.1.2015
+        \n\n
+
+        Vaikka talvi tuntuu uhkaavasti kääntyvän kohti kevättä, uskotaan silti vahvasti Simpsiön lumen riittävyyteen menemällä laskettelemaan maaliskuun puolessa välissä.
+        Laskettelupäivä korvaa loppiaista ennen olleen koulupäivän ja on siis normaali koulupäivä.
+        Kuljetukset Simpsiölle hoituvat perinteiseen tyyliin omatoimisesti, eväät tulevat koululta. Tarkempi tiedote koteihin maaliskuun ensimmäisellä viikolla.
+        \n\n
+
+
+        TULOSTUSTA MALLIA 3D\n
+        15.1.2015\n\n
+
+        Tuskin oli kevätlukukausi päässyt pyörähtämään kunnolla käyntiin, kun 3D -tulostin sylkäisi ensimmäiset tuotoksensa maailmalle. Hienosäätöjen jälkeen päästään kohta toteuttamaan monen oppilaan omaa suunnitelmaa toimivasta pelinappulasta ja tiedä mitä muuta vielä tulostetaankaan.\n\n
+
+        Kadonnut hyllynpidike on jo tehty ja hyvin toimii, tulostetut nopat pyörivät odotetusti ja suuria suunnitelmia jatkolle on olemassa. Kiitokset Chrisille jo tässä vaiheessa!
+
+        \n\n
+    </string>
+    <string name="etusivu_teksti2">HYVÄÄ JOULUA!\n
+        20.12.2014\n\n
+
+        Työntäyteinen syksy on takana ja on aika hengähtää hetkisen. Kiitokset kaikille eri tavoin koulun toimintaan osallistuneille tahoille yhdessä ja erikseen!\n\n
+
+        Joulukalenterin luukut avautuvat jouluaattoon asti ja jo nyt voitaneen sanoa uuden perinteen syntyneen. Ensi vuonna siis jatketaan joulukalenterin luukkujen availua koulun kotisivujen kautta.\n\n
+
+        Ylimääräisenä bonuksena julkaistaan yksi bonusluukku jouluaattona. Linkki luukkuun löytyy alla olevasta napista.</string>
+    <string name="bonusluukku_nappi">Bonusluukku</string>
+    <string name="etusivu_teksti3">JOULUJUHLASSA ENNÄTYSYLEISÖ\n
+        19.12.2014\n\n
+
+        Torstain joulujuhla aiheutti pienimuotoisen tungoksen koulun parkkipaikalla, kun reilu kaksisataa vierasta tuli seuraamaan oppilaiden esittämiä ohjelmia. Joulukalenterin luukulla 18 alkaneen ja volttinäytökseen päättyneen juhlan jälkeen sekä esiintyjät että yleisö vaikuttivat varsin tyytyväisiltä. Eikä syyttä.\n\n
+
+        Välitodistusten jaon jälkeen keskitytään joulun viettoon ja koulutyöhön palataan loppiaisen jälkeen 7.1.2015.
+
+        \n\n
+
+    </string>
+    <string name="ohjeita_nappi">Ohjeita</string>
+    <string name="lista_3d_tulostin">Miten 3D tulostinta käytetään?</string>
+    <string name="avaa_fullscreen_teksti">Avaa Koko Näytölle</string>
+    <string name="tulostus_ohje_teksti">MiniFactory 3D tulostimen käyttö\n\nJos olet tehnyt esimerkiksi pelinappulan ja haluat tulostaa sen, tee seuraavasti.\nEnsin lataa se koneelle:</string>
+    <string name="title_activity_ohjeita">Ohjeita</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="lista_tinkercad">Miten Tinkercadia käytetään?</string>
+    <string name="tinkercad_ohje_teksti">Tinkercad ohje tulossa pian!</string>
+    <string name="tulostus_ohje_teksti2">Tinkercadilla kappaleen voi ladata klikkaamalla \"Download for 3D Printing\" -nappia.\nSen jälkeen Tinkercad kysyy, missä muodossa kappaleen haluaa tallentaa. Paina \".STL\" -nappia, niin Tinkercad tekee kappaleen tulostimelle sopivaan muotoon, ja lataus alkaa automaattisesti:</string>
+    <string name="tulostus_ohje_teksti3">Kun lataus on valmistunut, klikkaa siitä:</string>
+    <string name="kappale_teksti">Valitse kappale alapuolelta</string>
+    <string name="seuraava_kappale_nappi_teksti">Avaa seuraava kappale</string>
+    <string name="tulostus_ohje_teksti7">Ruudun vasemmalla puolella näkyy 3D kappale ja oikealla asetuksia ja säätöjä, jota sille voi tehdä.</string>
+    <string name="tulostus_ohje_teksti8">Aloittaaksesi tulostettavan kappaleen korjauksen, klikkaa punaista Repair nappia ruudun oikeasta yläkulmasta:</string>
+    <string name="tulostus_ohje_teksti9">Sen jälkeen hiukan alempaa klikkaa Actions nappia:</string>
+    <string name="tulostus_ohje_teksti10">Seuraavaksi klikkaa kaikista alla olevassa kuvassa ympyröidyistä napeista. Kahdessa napissa avautuu pieni ruutu, jossa ainoa asia mitä täytyy tehdä, on klikata ok -nappia:</string>
+    <string name="tulostus_ohje_teksti11">Nyt klikkaa ruudun oikeasta alareunasta Apply repair -nappia:</string>
+    <string name="tulostus_ohje_teksti12">Sen jälkeen avautuu ikkuna jossa Netfabb Studio kysyy haluatko korvata alkuperäisen, vai säilyttää sen. Klikkaa Keep old part -nappia:</string>
+    <string name="tulostus_ohje_teksti13">Oikealle ilmestyy uusi kappale jonka nimen jälkeen lukee teksti \”(repaired)\":</string>
+    <string name="tulostus_ohje_teksti14">Sitten klikkaa uutta kappaletta hiiren oikeanpuolimmaisella napilla, niin avautuu seuraavanlainen valikko:</string>
+    <string name="tulostus_ohje_teksti15">Vie hiiri kohtaan Export part, ja klikkaa as STL:</string>
+    <string name="tulostus_ohje_teksti16">Tämän jälkeen avautuu ikkuna jossa voit valita, mihin, ja millä nimellä haluat tallentaa korjatun kappaleen. Klikkaa Tallenna -nappia:</string>
+    <string name="tulostus_ohje_teksti17">Kun kappale on tallennettu, voit sulkea Netfabb Studion painamalla ruksia ruudun oikeasta yläkulmasta:</string>
+    <string name="tulostus_ohje_teksti18">Vie hiiri kohtaan Export part, ja klikkaa as STL:</string>
+    <string name="edellinen_kappale_nappi">Avaa edellinen kappale</string>
+    <string name="tulostus_ohje_teksti19">Avaa Repetier Host klikkaamalla nappia näytön alareunasta:</string>
+    <string name="tulostus_ohje_teksti20">Tältä näyttää Repetier Host. Vasemmalla näkyy tulostusalusta ja oikealla tulostimeen ja tulostukseen liittyviä tietoja ja asetuksia.</string>
+    <string name="tulostus_ohje_teksti21">Seuraavaksi klikkaa ruudun vasemmasta yläkulmasta \"Lataa\" -nappia:</string>
+    <string name="tulostus_ohje_teksti22">Nyt valitse tulostettavan kappaleen ja sitten klikkaat Avaa -nappia:</string>
+    <string name="tulostus_ohje_teksti23">Kun olet valinnut kappaleesi, se avautuu vasemmalle tulostusalustan päälle:</string>
+    <string name="tulostus_ohje_teksti24">Seuraavaksi kappale täytyy muuntaa G-koodiksi, että tulostin ymmärtää, mitä sen pitää tehdä. Sitä varten löytyy lisäohjelma, Slic3r, joka löytyy suoraa Repetier Hostista. Avataksesi Slic3rin, klikkaa Slicer -nappia ruudun oikeasta yläreunasta:</string>
+    <string name="tulostus_ohje_teksti25">Kun Slic3r on avattu, voit klikata Viipaloi Slic3r -nappia ja Slic3r muuntaa kappaleen G-koodiksi:</string>
+    <string name="tulostus_ohje_teksti26">Klikkaa Aja Työ -nappia aloittaaksesi tulostuksen:</string>
+    <string name="tulostus_ohje_teksti27">Seuraavaksi tulostin lämmittää tulostusalustan ja suuttimen, ja sitten aloittaa tulostuksen. Alla olevassa kuvassa tulostus on juuri alkanut.</string>
+    <string name="tulostus_ohje_teksti28">Kun tulostus on valmis, tulostin nostaa suuttimen ylös, ja tuo kappaleen eteenpäin, josta se on helppo irrottaa.</string>
+    <string name="title_activity_tulostus_ohje_kappale1">Tulostusohje - Kappale 1</string>
+    <string name="title_activity_tulostus_ohje_kappale2">Tulostusohje - Kappale 2</string>
+    <string name="title_activity_tulostus_ohje_kappale3">Tulostusohje - Kappale 3</string>
+    <string name="title_activity_tulostus_ohje_kappale4">Tulostusohje - Kappale 4</string>
+    <string name="title_activity_tulostus_ohje_kappale5">Tulostusohje - Kappale 5</string>
+    <string name="title_activity_tulostus_ohje_kappale6">Tulostusohje - Kappale 6</string>
+    <string name="title_activity_tulostus_ohje_kappale7">Tulostusohje - Kappale 7</string>
+    <string name="title_activity_tulostus_ohje_kappale8">Tulostusohje - Kappale 8</string>
+    <string name="title_activity_tulostus_ohje_kappaleet">Kappaleet</string>
+    <string name="tulostus_kappale1">1: Kappaleen lataus koneelle</string>
+    <string name="tulostus_kappale2">2: Netfabb Studio - Avaaminen</string>
+    <string name="tulostus_kappale3">3: Netfabb Studio - Korjaus</string>
+    <string name="tulostus_kappale4">4: Netfabb Studio - Valmistus</string>
+    <string name="tulostus_kappale5">5: Netfabb Studio - Exporttaus ja tallentaminen</string>
+    <string name="tulostus_kappale6">6: Repetier Host - Avaaminen ja Lataus</string>
+    <string name="tulostus_kappale7">7: Repetier Host - Slic3r</string>
+    <string name="tulostus_kappale8">8: Repetier Host - Tulostuksen aloitus ja valmistuminen</string>
+    <string name="tulostus_ohje_teksti4">Klikkauksen jälkeen avautuu Netfabb Studion aloitusruutu. Klikkaa pienestä ruudusta \"I accept the terms of usage\" -tekstin vasemmalta puolelta:</string>
+    <string name="tulostus_ohje_teksti5">Sitten klikkaa \"Later\" -nappia avataksesi ohjelman:</string>
+    <string name="tulostus_ohje_teksti6">Tältä näyttää Netfabb Studio:</string>
+    <string name="kahoot_nappi">Kahoot!</string>
+    <string name="action_tulostinongelmat">Ongelmia tulostimen/tulostuksen kanssa?</string>
+    <string name="title_activity_tulostus_ongelmat">Tulostin/Tulostusongelmia?</string>
+    <string name="tulostus_ongelma_valitse_vaihtoehto_teksti">Minkälainen ongelma sinulla on?\nValitse joku alla olevista vaihtoehdoista:</string>
+    <string name="tulostin_ei_aloita_nappi">Tulostin ei aloita tulostusta</string>
+    <string name="tulostin_repetier_host_yhteys_poikki_nappi">RepetierHost ei saa yhteyttä tulostimeen</string>
+    <string name="joku_muu_nappi">Joku muu</string>
+    <string name="hello_world">No terve!</string>
+    <string name="title_activity_joku_muu_ongelma">Joku muu ongelma</string>
+    <string name="title_activity_repetier_host_yhteys_poikki">RepetierHost ei yhteyttä</string>
+    <string name="title_activity_tulostin_ei_aloita_tulostusta">Tulostin ei aloita tulostusta</string>
+    <string name="tulostus_ongelmia_sposti_aihe">Tulostin/Tulostusongelmia</string>
+    <string name="tyhja_viesti">Kirjoita viesti ensin!</string>
+    <string name="valitse_lahetystapa_alapuolelta_teksti">Valitse alapuolelta miten haluat ottaa yhteyttä:</string>
+    <string name="viesti_lahetetty">Viesti lähetetty!</string>
+    <string name="lähetä">Lähetä</string>
+    <string name="millainen_ongelma_edit_text_hint">Millainen ongelmasi on?</string>
+    <string name="paina_nappia_lähettääksesi">Paina alla olevaa nappia lähettääksesi:</string>
+    <string name="puhelu_nappi">Puhelu</string>
+    <string name="puhelu_vaihtoehto_nappi">Vaihtoehtoisesti voit myös soittaa puhelun saadaksesi apua</string>
+    <string name="sposti_nappi">Sähköposti</string>
+    <string name="tekstiviesti_nappi">Tekstiviesti</string>
+
+</resources>
