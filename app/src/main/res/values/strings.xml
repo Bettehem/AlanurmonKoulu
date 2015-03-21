@@ -112,7 +112,7 @@
     <string name="tulostin_repetier_host_yhteys_poikki_nappi">RepetierHost can\'t connect to the printer</string>
     <string name="title_activity_tulostin_ei_aloita_tulostusta">Printer doesn\'t start printing</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Coming soon!</string>
     <string name="title_activity_repetier_host_yhteys_poikki">RepetierHost no connection</string>
     <string name="title_activity_joku_muu_ongelma">Some other problem</string>
     <string name="millainen_ongelma_edit_text_hint">What kind of problem have you experienced?</string>

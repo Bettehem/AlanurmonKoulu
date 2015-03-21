@@ -108,7 +108,7 @@
     <string name="tulostin_ei_aloita_nappi">Tulostin ei aloita tulostusta</string>
     <string name="tulostin_repetier_host_yhteys_poikki_nappi">RepetierHost ei saa yhteyttä tulostimeen</string>
     <string name="joku_muu_nappi">Joku muu</string>
-    <string name="hello_world">No terve!</string>
+    <string name="hello_world">Tulossa pian!</string>
     <string name="title_activity_joku_muu_ongelma">Joku muu ongelma</string>
     <string name="title_activity_repetier_host_yhteys_poikki">RepetierHost ei yhteyttä</string>
     <string name="title_activity_tulostin_ei_aloita_tulostusta">Tulostin ei aloita tulostusta</string>
