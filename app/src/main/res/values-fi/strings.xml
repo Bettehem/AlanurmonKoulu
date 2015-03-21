@@ -124,4 +124,11 @@
     <string name="sposti_nappi">Sähköposti</string>
     <string name="tekstiviesti_nappi">Tekstiviesti</string>
 
+    <string-array name="tabs">
+
+        <item>Miten käyttää 3D tulostinta</item>
+        <item>Tinkercad</item>
+
+    </string-array>
+
 </resources>
